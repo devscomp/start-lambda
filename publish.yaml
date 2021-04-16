@@ -1,0 +1,21 @@
+Type: Application
+Name: nodejs12.x-http
+Provider:
+  - AWS
+Version: 0.1.1
+Description: 快速的将项目部署到Lambda。
+HomePage: https://github.com/devsapp/start-lambda
+Tags:
+  - 部署函数
+  - 部署组件
+  - AWS
+  - Nodejs12.x
+Category: 新手入门
+Service:
+  函数计算:
+    Authorities:
+      - 创建函数
+      - 删除函数
+      - 创建服务
+      - 删除服务
+    Runtime: Node.JS
