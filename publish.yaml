@@ -1,5 +1,5 @@
 Type: Application
-Name: nodejs12.x-http
+Name: start-lambda
 Provider:
   - AWS
 Version: 0.1.1
